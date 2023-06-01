@@ -4,7 +4,7 @@ interface ButtonProps {
 }
 
 export default function Button({text, rounded}: ButtonProps) {
-  const isRounded = rounded ? 'rounded-3xl' : '';
+  const isRounded = rounded ? 'rounded-3xl' : 'rounded-md';
   return(
     <button className={`text-white bg-cyan py-2 px-7 ${isRounded}`}>{text}</button>
   );

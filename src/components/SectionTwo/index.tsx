@@ -1,9 +1,13 @@
 import InformativeCards from "../InformativeCards";
+import LinkShortener from "../LinkShortener";
 
 export default function SectionTwo() {
   return(
-    <section className="bg-light-gray mt-32 w-full flex flex-col items-center py-20">
-      <div className="w-full flex flex-col items-center mb-20">
+    <section className="bg-light-gray mt-32 w-full flex flex-col items-center py-20 relative">
+      <div className="absolute top-0 -translate-y-2/4">
+        <LinkShortener/>
+      </div>
+      <div className="w-full flex flex-col items-center mb-20 mt-20">
         <h2 className="text-3xl font-bold mb-3">Advanced Statistics</h2>
         <p className="text-grayish-violet w-1/3 leading-relaxed text-center">Track how your links are performing across the web with our advanced statistics dashboard.</p>
       </div>
