@@ -4,7 +4,7 @@ import logo from "../../assets/logo.svg";
 
 export default function Header() {
   return (
-    <header className="max-w-[1096px]">
+    <header className="w-[1096px]">
       <nav className="flex justify-between mt-10">
         <div className="flex gap-x-10 items-center">
           <img src={logo}/>
